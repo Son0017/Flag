@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-size: 20px;
+}
+
+main {
+  height: 100%;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: azure;
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.img img {
+  width: 100%;
+  max-width: 250px;
+  height: 130px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 380px;
+  padding: 7px;
+  border: none;
+  background-color: inherit;
+  border-bottom: 2px solid rgba(92, 70, 70, 0.5);
+}
+input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgba(92, 70, 70, 0.5);
+}
+
+button {
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 10px 0;
+  width: 100px;
+  border: none;
+  background-color: blue;
+  color: white;
+}
+
+.label {
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+ul {
+  list-style: none;
+}/*# sourceMappingURL=main.css.map */
